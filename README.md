@@ -16,12 +16,14 @@ graph TD
     Examples --> N1[num1.py<br><i>Сортировка a и b</i>]
     Examples --> N2[num2.py<br><i>Замена b на чётных</i>]
     Examples --> N3[num3.py<br><i>Две правые a</i>]
+    Examples --> N4[num4.py<br><i>Одинаковые ли символы</i>]
     
     Root --> Tests[tests/]
     Tests --> TC[test_core.py<br><i>Тесты ядра</i>]
     Tests --> T1[test_num1.py]
     Tests --> T2[test_num2.py]
     Tests --> T3[test_num3.py]
+    Tests --> T4[test_num4.py]
 ```
 ## Установка
 1. Клонируйте репозиторий:
@@ -81,6 +83,7 @@ python cli.py run 1
 
 `Задача 3 (examples/num3.py)`. Заменить две самые правые буквы `a` на `b`. Если букв `a` меньше двух — заменить столько, сколько есть. Если букв `a` нет — слово не меняется.
 
+`Задача 4 (examples/num4.py)`. Проверить, все ли символы в слове одинаковы. Если да — добавить `a` в конец, иначе — `b`.
 ## Как добавить свою задачу
 
 1. Создайте `examples/my_task.py` (пример меняет все `a` на `b`):
