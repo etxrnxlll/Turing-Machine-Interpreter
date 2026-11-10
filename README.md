@@ -131,7 +131,7 @@ from examples.my_task import ALPHABET as ALPHABET_my, TRANSITIONS as TRANSITIONS
 TASKS[16] = Machine("my_task", ALPHABET_my, TRANSITIONS_my) # номер должен быть уникальным
 ```
 3. Добавьте `tests/test_my_task.py` по образцу `tests/test_num1.py`.
-4. Запустите `pytest` и `python cli.py run 4`.
+4. Запустите `pytest` и `python cli.py run 16`.
 
 ## Ограничения
 * Одна лента, один интерпретатор. Нет многоленточных расширений, нет недетерминизма.
